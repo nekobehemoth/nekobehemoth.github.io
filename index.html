@@ -4,30 +4,34 @@
         <title>Example</title>
         <meta charset="utf-8" />
         <style>
+            /* HOMEPAGE STYLES */
+
+            /* GLOBAL STYLES */
             a {
-                color: black;
+                color: red;
             }
-            #exec-bio {
-                background-color: lightgray;
+
+            /* SOCIAL STYLES */
+            .social-link {
+                color: blue;
             }
-            #ex_color {
-                background-color: orange;
+
+            /* BIO STYLES */
+            div.bio-box {
+                border: 1px solid green;
             }
             .bio-box {
                 border: 1px solid black;
             }
-            .bio-box a{
+            .bio-copy a {
                 color: green;
-            }
-            .baco {
-                background-color: red;
             }
         </style>
     </head>
     <body>
-        <h1>I'm an h1</h1>
+        <h1 class="social-link">I'm an h1</h1>
         <ul>
-            <li id="ex_color">
+            <li>
                 <a href="http://example.com/">Link</a>
             </li>
             <li>
@@ -38,17 +42,31 @@
             </li>
         </ul>
         <h2>I'm an h2</h2>
-        <div class="bio-box baco">
-            <a href="http://example.com*">I'm a link</a>
+        <div class="bio-box ">
+            <h3>Ilya Ushakov</h3>
+            <a href="https://vk.com/ushakoilya" class="social-link" target="_blank">here</a>
+            <div class="bio-copy">
+                <p>
+                    Student, rock music fans, can play the guitar and just good guy. Ilya have nothing created, but he has account on <a href="https://www.instagram.com/firstushakov/" class="social-link" target="_blank">instagram</a>, by the way it is private. And yes, he is not englishman and therefore his english is poor.
+                </p>
+
+            </div>
         </div>
-        <div class="bio-box baco" >
-            <a href="http://example.com*">I'm a link</a>
+        <div class="bio-box ">
+            <h3>Maxim Pisanov</h3>
+            <a href="https://vk.com/wouuuu" class="social-link" target="_blank">here</a>
+            <div class="bio-copy">
+                <p>
+                    Not student (ahahah), rock music fans too, he can't play the guitar and just horrid boy. Maxim have nothing created, it would be better if he was not born at all, but he is, and he has account on <a href="https://www.instagram.com/max_pisanov/" class="social-link" target="_blank">instagram</a> too.
+                </p>
+            </div>
         </div>
-        <div class="bio-box baco" >
-            <a href="http://example.com*">I'm a link</a>
+        <div class="bio-box">
+            <h3>??</h3>
+            <p>
+                The Future
+            </p>
         </div>
-        <div class="bio-box baco">
-            <a href="http://example.com*">I'm a link</a>
-        </div>
+
     </body>
 </html>
