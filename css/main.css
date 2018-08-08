@@ -159,7 +159,7 @@ h2 ~ p {
   height: 50vh;
 }
 /* SOCIAL STYLES */
-.social-link {
+.social-link a {
   background: rgba(150, 150, 150, 0.5);
   border-radius: 99px;
   box-sizing: border-box;
@@ -176,10 +176,10 @@ h2 ~ p {
   vertical-align: middle;
   width: 2.5em;
 }
-.social-link:hover  {
+.social-link a:hover  {
   background: rgba(150, 150, 150, 0.4);
 }
-.social-link:active {
+.social-link a:active {
   background: rgba(150, 150, 150, 0.4);
   -webkit-transform: scale(0.9);
   -ms-transform: scale(0.9);
@@ -194,7 +194,70 @@ h2 ~ p {
   display: inline-block;
   margin: 0 0.5em;
 }
-
+.social-footer-list {
+  list-style: none;
+  margin-top: 1.5em;
+  padding: 0;
+  text-align: center;
+}
+.social-footer-list > li {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+.social-footer-link a {
+  background: rgba(150, 150, 150, 0.5);
+  border-radius: 99px;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 1);
+  display: inline-block;
+  font-family: helvetica, arial, sans;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 2.5em;
+  line-height: 1;
+  padding-top: 0.85em;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 2.5em;
+}
+.social-footer-link a:hover  {
+  background: rgba(150, 150, 150, 0.4);
+}
+.social-footer-link a:active {
+  background: rgba(150, 150, 150, 0.4);
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+/* Site Styles */
+.site-links {
+  background: rgba(150, 150, 150, 0.5);
+  border-radius: 99px;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 1);
+  display: inline-block;
+  font-family: helvetica, arial, sans;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 2.5em;
+  line-height: 1;
+  margin-bottom: 1em;
+  padding-top: 0.85em;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 2.5em;
+}
+.site-links:hover  {
+  background: rgba(150, 150, 150, 0.4);
+}
+.site-linkss:active {
+  background: rgba(150, 150, 150, 0.4);
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
 /* BIO STYLES */
 .bio-wrapper {
   font-size: 24px;
