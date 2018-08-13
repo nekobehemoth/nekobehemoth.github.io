@@ -89,37 +89,11 @@ p {
   text-indent: 20px;
 }
 h2 ~ p {
-  font-size: 1em;
+
   margin: 1em auto 0;
   max-width: 80%;
 }
-@media (max-width: 1000px){
-  html {
-    box-shadow: none;
-    padding: 0px;
-  }
 
-  /* HEADER STYLES */
-.header-nav {
-  padding: 2vh 1em 0 0;
-}
-.header-nav > li {
-  margin-left: 0.25em;
-}
-.header-nav > li ~ li {
-  padding-left: 0.25em;
-}
-.nav-links a {
-  font-size: 3.25vw;
-}
-.header-logo {
-  left: auto;
-}
-/* BLOG STYLES */
-.post-aside {
-  display: none;
-}
-}
 /* HEADER STYLES */
 .header {
   background-color: #000;
@@ -510,9 +484,10 @@ h2 ~ p {
 
 /* HOME SECTION STYLES */
 .home-section {
+
   margin: 6em auto;
-  max-width: 980px;
-  width: 90vh;
+  max-width: 1200px;
+  width: 100%;
 }
 .home-section h2 {
   margin-bottom: 1.5rem;
@@ -554,6 +529,77 @@ h2 ~ p {
   font-size: 0.8em;
 }
 
+@media (max-width: 1000px){
+  html {
+    box-shadow: none;
+    padding: 0px;
+  }
+
+  /* HEADER STYLES */
+  .header-nav {
+    padding: 2vh 1em 0 0;
+  }
+  .header-nav > li {
+    margin-left: 0.25em;
+  }
+  .header-nav > li ~ li {
+    padding-left: 0.5em;
+  }
+  .nav-links a {
+    font-size: 3.25vw;
+  }
+  .header-logo {
+    left: auto;
+    height: 7.5vh;
+  }
+  /* BLOG STYLES */
+  .post-aside {
+    display: none;
+  }
+  /* HOME STYLES */
+  .home-callout {
+    flex-direction: column;
+  }
+  .callout-copy {
+    flex: 1;
+  }
+  .bio-box {
+    float: none;
+    /* font-size: 1.3rem; */
+    width: auto;
+  }
+  /* GALLERY STYLES */
+  .gallery {
+    flex-direction: column;
+  }
+  .gallry .col {
+    padding: 1em;
+  }
+  .gallery .gallery-thumbs {
+    flex: 1;
+    height: auto;
+    white-space: nowrap;
+    width: 100vw;
+  }
+  .gallery-thumbs > div {
+    display: inline-block;
+  }
+  .gallery-thumbs img {
+    height: 7vh;
+    margin: 0 10px 0 0;
+    width: auto;
+  }
+  .gallery .gallery-info {
+    flex: 1;
+  }
+  /* BLOG STYLES */
+  .blog-recent {
+    display: none;
+  }
+  .blog-previews {
+    padding: 0;
+  }
+}
 /* BIO STYLES */
 
 .bio-wrapper{
@@ -590,9 +636,9 @@ h2 ~ p {
 }
 .bio-box > img[src="images/NHK_World2.jpg"] {
   width: 30%;
-
+}
 .bio-copy {
-  font-size: 0.75em;
+  font-size: 1.3rem;
 }
 .bio-box .site-links {
   display: block;
