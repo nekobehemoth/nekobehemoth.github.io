@@ -3,12 +3,16 @@
   <head>
   <title>Example</title>
   <meta charset="utf-8" />
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">   
   <link rel="stylesheet" href="/css/main.css" />
 </head>
 
     <body>
       <header class="header">
   <nav>
+    <input type="checkbox" id="mobile-menu" class="mobile-menu-check" />
+    <label for="mobile-menu" class="show-mobile-menu">Menu</label>
     <ul class="header-nav nav-links">
       
 <li>
@@ -17,8 +21,16 @@
 <li>
   <a href="/gallery">gallery</a>
 </li>
-<li>
-  <a href="/blog">Blog</a>
+<li class="dropdown">
+  <a href="/blog" class="drop-trigger">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+    <li><a href="/2018/08/12/second_post.html">All you need is Japan</a> </li>
+    
+    <li><a href="/2018/08/11/title-of-post.html">All you need is Japan</a> </li>
+    
+  </ul>
 </li>
 <li>
   <a href="/2018/08/12/second_post.html">Newest Post</a>
@@ -34,15 +46,16 @@
   <div class="full-hero hero-home">
     <div class="hero-content">
      <h1>All You Need Is Japan</h1>
-      <ul class="social-list social-link">
+      <ul class="social-list social-link" >
+
         <li>
-    <a href="http://example.com/" target="_blank">Fb</a>
+    <a href="https://facebook.com/learnenough" target="_blank"><i class="fa fa-facebook"></i></a>
 </li>
 <li>
-    <a href="http://example.com/" target="_blank">Tw</a>
+    <a href="http://example.com/" target="_blank"><i class="fa fa-twitter"></i></a>
 </li>
 <li>
-    <a href="http://example.com/" target="_blank">Gh</a>
+    <a href="http://example.com/" target="_blank"><i class="fa fa-github"></i></a>
 </li>
 
       </ul>
@@ -145,8 +158,16 @@
 <li>
   <a href="/gallery">gallery</a>
 </li>
-<li>
-  <a href="/blog">Blog</a>
+<li class="dropdown">
+  <a href="/blog" class="drop-trigger">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+    <li><a href="/2018/08/12/second_post.html">All you need is Japan</a> </li>
+    
+    <li><a href="/2018/08/11/title-of-post.html">All you need is Japan</a> </li>
+    
+  </ul>
 </li>
 <li>
   <a href="/2018/08/12/second_post.html">Newest Post</a>
@@ -157,13 +178,13 @@
   <h3>日本が大好きですよ</h3>
   <ul class="social-footer-list social-footer-link">
     <li>
-    <a href="http://example.com/" target="_blank">Fb</a>
+    <a href="https://facebook.com/learnenough" target="_blank"><i class="fa fa-facebook"></i></a>
 </li>
 <li>
-    <a href="http://example.com/" target="_blank">Tw</a>
+    <a href="http://example.com/" target="_blank"><i class="fa fa-twitter"></i></a>
 </li>
 <li>
-    <a href="http://example.com/" target="_blank">Gh</a>
+    <a href="http://example.com/" target="_blank"><i class="fa fa-github"></i></a>
 </li>
 
   </ul>
